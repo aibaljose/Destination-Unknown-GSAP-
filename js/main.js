@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ease: Power3.easeInOut
         }, '-=2');
     
-    nav.addEventListener('click', () => {
+    nav.addEventListener('scroll', () => {
         let timeline2 = new TimelineMax()
         timeline2
             .set('.grid', {
