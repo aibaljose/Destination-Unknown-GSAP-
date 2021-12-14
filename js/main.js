@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
 
-    /*let controller = new ScrollMagic.Controller();
+    let controller = new ScrollMagic.Controller();
     
     let timeline2 = new TimelineMax()
     timeline2
@@ -97,5 +97,5 @@ document.addEventListener('DOMContentLoaded', () => {
         .addIndicators()
         .setPin('.container')
         .addTo(controller);
-    */
+    
 })
